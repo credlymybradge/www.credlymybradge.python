@@ -86,34 +86,46 @@ setTimeout(function(){pendo.initialize({"visitor":{},"account":{}});}, 1000)
 //]]>
   </script>
   <header class="transitional" id="website-header" style="">
-   <div class="website-header-main-links-container website-header-placeholder">
-   </div>
-   <div>
-    <a href="#skip-target" id="skip-to-content">
-     Skip to content
-    </a>
-   </div>
-   <div class="website-header-main-links-container non-react-header">
-    <div class="grid website-header-main-links">
-     <a class="acclaim-logo" href="https://www.credly.com/">
-      Credly
-     </a>
-     <nav data-behavior="container" name="main_navigation">
-      <div class="header-nav-item header-nav-item--btn-container header-nav-item--btn-container--create-account-btn-container">
-       <a class="create-account-btn button white" href="/users/sign_up">
-        Create Account
-       </a>
-      </div>
-      <div class="header-nav-item header-nav-item--btn-container header-nav-item--btn-container--sign-in-btn-container">
-       <a class="sign-in-btn button" href="/users/sign_in">
-        Sign In
-       </a>
-      </div>
-     </nav>
+    <div class="website-header-main-links-container website-header-placeholder">
     </div>
-   </div>
-  </header>
+    <div>
+       <a href="#skip-target" id="skip-to-content">
+          Skip to content
+       </a>
+    </div>
+    <div class="website-header-main-links-container non-react-header">
+       <div class="grid website-header-main-links">
+          <a class="acclaim-logo" href="https://www.credly.com/">
+             Credly
+          </a>
+          <!-- Added Search Bar Here -->
+          <div class="search-bar" data-container="search-bar" style="display: inline-block; margin: 35px 10px 0 100px; position: relative;">
+            <input type="text" placeholder="           Discover badges, skills, and organizations" aria-label="Search" 
+                   style="padding: 10px 10px 10px 40px; height: 40px; border: 1px solid #ccc; border-radius: 4px; width: 500px; box-sizing: border-box; margin-left: 90px; margin-top:-20px;">
+            <button type="submit" 
+                    style="padding: 10px; border: none; background-color: #005850; color: white; border-radius: 4px; cursor: pointer; position: absolute; left: 5px; height: 100%; align-items: center;  margin-top:-3px;margin-left:88px;">
+                Search
+            </button>
+        </div>
+        
+        
+        
+          <div class="header-nav-item header-nav-item--btn-container header-nav-item--btn-container--create-account-btn-container">
+             <a class="create-account-btn button white" href="/users/sign_up">
+                Create Account
+             </a>
+          </div>
+          <div class="header-nav-item header-nav-item--btn-container header-nav-item--btn-container--sign-in-btn-container">
+             <a class="sign-in-btn button" href="/users/sign_in">
+                Sign In
+             </a>
+          </div>
+       </div>
+    </div>
+ </header>
+ 
   <div class="search-bar" data-container="search-bar">
+    
   </div>
   <div class="badges" id="flash">
    <div class="grid">
